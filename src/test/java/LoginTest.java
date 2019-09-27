@@ -23,6 +23,11 @@ public class LoginTest {
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/span/span")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.name("password")).sendKeys("HemantapASSWORD");
+		/*
+		 * 
+		 * Added line new comments
+		 * 
+		 */
 	}
 
 	@AfterSuite
